@@ -119,7 +119,7 @@ export default function Register() {
           button: "Aceptar",
         });
       } else {
-        navigate(`/validate/${UserRegister.username}`);
+        navigate(`https://pg-rgb-store.vercel.app/validate/${UserRegister.username}`);
       }
       setUser({
         name: "",
